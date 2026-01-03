@@ -141,7 +141,7 @@ $(function () {
         if (typeof message.flags.tb_labels === "object") {
           unset_labels = Array.from(message.flags.tb_labels);
         } else {
-          unset_labels = ["LABEL1", "LABEL2", "LABEL3", "LABEL4", "LABEL5"];
+          unset_labels = [];
         }
         $.each(flags, function (flagname, flagvalue) {
           var pos;
